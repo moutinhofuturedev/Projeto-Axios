@@ -34,16 +34,19 @@ export function Repositorie() {
         }}
         >
             <h4>Usuário do Github</h4>
-            <img src={user.avatar} alt="Imagem do usuário" title="Imagem do usuário" 
-            style={{
-                borderRadius: '9999px',
-                border: '2px solid #000000',
-                padding: '2px',
-                height: '72px',
-                width: '72px',
-                marginBottom: '8px',
-            }}
-            />
+            <a href="https://github.com/moutinhofuturedev" target={"_blank"} >
+                <img src={user.avatar} alt="Imagem do usuário" title="Imagem do usuário"
+                    style={{
+                        borderRadius: '9999px',
+                        border: '2px solid #000000',
+                        padding: '2px',
+                        height: '72px',
+                        width: '72px',
+                        marginBottom: '8px',
+                        cursor: 'pointer'
+                    }}
+                />
+            </a>
             <span>{user.name}</span>
             <span>{user.bio}</span>
             <span>{user.location}</span>

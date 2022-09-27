@@ -14,7 +14,7 @@ export function Repositorie() {
         const data = await response.data
 
         setUser({
-            avatar: data.avatar_url,
+            avatar: data.avatar_url, // passando os objetos do json que a api traz
             name: data.name,
             bio: data.bio,
             location: data.location

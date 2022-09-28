@@ -3,7 +3,7 @@ import AxiosImg from '../assets/axios.svg'
 export function Header() {
     return (
         <header
-            style={{
+            style={{ // css in js
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'center',
